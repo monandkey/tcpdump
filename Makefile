@@ -1,6 +1,6 @@
 # Makefile
 DOCKER_ENV              ?= DOCKER_BUILDKIT=1
-DOCKER_TAG              ?= 1.1
+DOCKER_TAG              ?= 1.2
 DOCKER_REGISTRY         ?= docker.io
 DOCKER_REPOSITORY       ?= monandkey/tcpdump
 DOCKER_BUILD_ARGS       ?= --rm
