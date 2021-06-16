@@ -19,7 +19,7 @@ elif [ $1 == 'stop' ]; then
 
     for TCPDUMP_PIDS in ${TCPDUMP_PIDS}
     do
-        kill -9 ${TCPDUMP_PIDS}
+        kill -15 ${TCPDUMP_PIDS}
     done
 else
     echo 'The specified option does not exist.'
